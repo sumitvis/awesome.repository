@@ -1,0 +1,20 @@
+git init (initialize the file)
+git status (show the status of files where they are tracked or untracked)
+git add (add files from working directory to staging area)
+git status
+git rm --cached filename(index.txt) (remove files from taging area to working directory)
+git status
+git add .
+git config --global user.name "sumitvish" (add user name)
+git config --global user.email "sumitvish272@gmail.com" (add email)
+git config --list   (to see the config list mans user name and email)
+git commit -m"created index.txt file"  ()
+git log (shows all the version in the local repository)  #commit id is unique
+git log --oneline (to see details in a single line) 
+git diff  filename(sumit.txt) (tell me me difference in the file (at content level) sumit.txt in staging area and wd.)
+
+git remote -v (tells origin from where files is fetched and pushed)
+git remote add origin https://github.com/sumitvis/sumit.git (commond to add origin)
+git remote -v
+git remote remove origin (to remove origin)
+git push -u origin master (we push the code to github.com repo via this commond)
